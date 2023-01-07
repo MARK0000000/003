@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+//font-family: 'Poppins', sans-serif;
+body {
+   background-color: #251C31;
+   color: #ffffff;
+   font-family: 'Preahvihear';
+   font-weight: 500;
+}
+.wrapper{
+   display: flex;
+   justify-content: center;
+}
+.wrapper_2{
+   flex-direction: column;
+   align-items: center;
+}
+header {
+   height: 113px;
+   background-color: #1A0B2E;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header{
+   width: 1140px;
+   display: flex;
+   justify-content: space-between;
+}
+.header_buttons {
+   width: 520px;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+   line-height: 40px;
+}
+
+.hi_text{
+   width: 100%;
+   font-size: 19px;
+   margin-top: 80px;
+   display: flex;
+   justify-content: center;
+}
+.hi_text_s{
+   color: #7127BA;
+}
+.hi_text_p{
+   position: relative;
+}
+.hi_arrow{
+   position: relative;
+   top: -25px;
+   right: -15px;
+}
+
+.hi {
+   width: 653px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: -60px;
+   height: 200px;
+}
+.hi_text_2 {
+   width: 386px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.hi_text_2_p1 {
+   font-size: 17px;
+   line-height: 31px;
+}
+.hi_text_2_p2 {
+   font-size: 50px;
+   line-height: 63px;
+}
+.hi_text_2_p3 {
+   font-size: 11px;
+   line-height: 20px;
+}
+.hi_me{
+   position: relative;
+}
+.hi_me_l{
+   z-index: -2;
+   background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+   position: absolute;
+   right: -70px;
+   top: -70px;
+   width: 385px;
+   height: 431px;
+}
+.hi_span {
+   position: relative;
+   color: #7127BA;
+}
+.hi_el {
+   position: absolute;
+   top: 15px;
+   right: -15px;
+   z-index: 2;
+}
+
+$i: 920px; 
+.i {
+   margin-top: 100px;
+   justify-content: space-between;
+   &_h {
+      width: $i;
+      font-size: 50px;
+      line-height: 90px;
+   }
+   &_p{
+      width: $i;
+      font-size: 21px;
+      line-height: 38px;
+      margin-bottom: 50px;
+   }
+   &_skils{
+      width: $i;
+      font-size: 22px;
+      line-height: 40px;
+   }
+}
+
+.exp {
+   display: grid;
+   grid-template: 1fr 1fr / 1fr 1fr;
+   width: 1160px;
+   gap: 20px;
+   &_item{
+      display: flex;
+      justify-content: space-between;
+      padding: 35px;
+      background: linear-gradient(149.88deg, #130428 37.22%, #251043 70.43%, #38126D 97.89%, #261045 132.38%, #190634 150.9%);
+      box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+      border-radius: 15px;
+
+   }
+   &_h{
+      font-size: 40px;
+      line-height: 72px;
+      width: 1160px;
+      position: relative;
+   }
+  &_h_d{
+   margin-top: 100px;
+   display: flex;
+   justify-content: center;
+   }
+   &_inf {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 100px;
+   }
+   &_h3{
+      font-size: 26px;
+      line-height: 32px;
+   }
+   &_p{
+      font-size: 8px;
+      line-height: 10px;
+   }
+   &_b{
+      width: 119px;
+      height: 33px;
+      background: #4f2b81;
+      border: 1px solid #693B93;
+      border-radius: 10px;
+      color: #ffffff;
+   }
+   &_l {
+      position: absolute;
+      width: 625px;
+      height: 700px;
+      left: 739px;
+      top: 900px;
+      background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+      z-index: -2;
+   }
+}
+
+
+.img_skils {
+   margin-top: 160px;
+}
+
+
+.ll{
+
+   margin-top: 300px;
+   //width: 1170px;
+}
+.last{
+   width: 1170px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+.l_p{
+   font-size: 18px;
+   line-height: 27px;
+   z-index: 3;
+   position: absolute;
+   background: url(.png), radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+   background-blend-mode: overlay, normal;
+   backdrop-filter: blur(40px);
+   border-radius: 14px;
+   padding: 30px;
+   width: 670px;
+   top: 100px;
+}
+.l_h{
+   font-size: 34px;
+   line-height: 51px;
+}
+.l_s{
+   font-size: 16px;
+   line-height: 24px;
+   color: #9857D3;
+}
+.l_lll{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.last_l{
+   position: absolute;
+   width: 625px;
+   height: 700px;
+   left: 400px;
+   top: -170px;
+   background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+   z-index: -2;
+
+}
+.last_l_2{
+   left: 550px;
+}
+.l_l{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+.l_p_2{
+   left: -50px;
+}
+.da{
+   display: flex;
+   justify-content: right;
+}
+.last_l1{
+   position: absolute;
+   width: 625px;
+   height: 700px;
+   left: 100px;
+   top: -170px;
+   background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+   z-index: -2;
+
+}
+.last_l2{
+   left: -50px;
+
+}
+.tr{
+   text-align: right;
+}
+.l_p_2{
+   left: -380px;
+}
